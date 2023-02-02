@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-roboto { /* Main font */
+  font-family: 'Roboto', sans-serif;
+}
+
+.transition-color { /* Slowly transitions text to blue */
+  transition: all 0.3s ease-in-out;
+}
